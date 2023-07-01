@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Ubuntu:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    display: flex;
+    flex-direction: row;    
+    justify-content: space-between;
+    background-color: rgba(48, 48, 146, 0.192);
+    padding: 4rem 0rem;
+    
+}
+.header__img{
+    margin-left: 2rem;
+}
+.header__busca{
+    margin-right: 1.5rem;
+    position: relative;
+}
+.header__busca__input{
+    background-color: #15113a94;
+    width: 33rem;
+    height: 2rem;
+    display: inline-flex;
+    padding: 0.75rem 1rem;
+    align-items: center;
+    
+}
+.header__busca__input::placeholder{
+    color: #D9D9D9;
+    font-size: 1.25rem;
+    font-family: 'Josefin Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.25rem;
+}   
+.header__busca__button{
+    background-color: #15113a94;
+    position: absolute; 
+    top: 0%;
+    right: 0%;
+    width: 3rem;
+    height: 2rem;
+    color: #D9D9D9;
+} 

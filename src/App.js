@@ -1,24 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
+import PaginasInicial from "./Pagina/PaginaInicial";
+//import { Fragment } from "react";
+
+// 1 PASSO - Limpar deixar apenas -index.html - e limpar conteudo dela - app.js,index.js
+// 2 PASSO - Criar uma pasta chamada paginas/PaginasInicial/index.jsx 
+// 3 PASSO - Importo a pagina inicial para app
+// 4 PASSO - coleção de componente
+// 5 PASSO - Separar a UI em componente com uma hieraquia
+// 6 PASSO - Criar Componentes em src 
+// 7 PASSO - USANDO .jsx consigo crir tag fora do renderizador - integrando (js + jsx)
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <PaginasInicial/>
   );
 }
 
