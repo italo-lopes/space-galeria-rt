@@ -1,0 +1,61 @@
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1.5rem 24px;
+  
+    &__container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 6px 10px;
+      width: 33%;
+      position: relative;
+      z-index: 0;
+      margin-right: 5rem;
+  
+      &::before {
+        content: "";
+        position: absolute;
+        inset: 0;
+        border-radius: 10px;
+        z-index: -1;
+        border: 1px solid #7a76df;
+        background: linear-gradient(to right, #3d2727, #544792) border-box; 
+        -webkit-mask-composite: linear-gradient(#b48a8a 0 0) padding-box, 
+        linear-gradient(#3b2929 0 0);
+        -webkit-mask-composite: xor;
+        mask-composite: exclude;
+      }
+    }
+  
+    &__input {
+      width: 100%;
+      height: 30px;
+      color: #d9d9d9;
+      font-size: 1rem;
+      border: none;
+      background-color: transparent;
+      outline: 0;
+      border-radius: 2px;
+  
+      &::placeholder {
+        font-family: "GrandhiSansBold";
+        font-weight: 100;
+        font-size: 1rem;
+        color: #ffffff;
+      }
+    }
+  
+    img {
+      cursor: pointer;  
+    }
+    &__logo{ 
+       width: 11%;   
+        margin-left: 3rem;
+        border-bottom-left-radius: 4.5px;
+        border-bottom-right-radius: 9.5px;
+        border-top-right-radius: 9.5px;
+        opacity: 0.58;
+    }
+  }

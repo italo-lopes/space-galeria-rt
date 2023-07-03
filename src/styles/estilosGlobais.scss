@@ -1,0 +1,50 @@
+
+// ele da reset
+//@import não é uma prática recomendada. 
+//avaScript ou usar bibliotecas de estilos, como o styled-components ou o CSS modules.
+@import-normalize;
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Roboto:ital,wght@0,300;1,100&display=swap');
+// importa de variaveis em css
+@import './_variaveis.scss';
+
+:root{
+  --font-principal : 'Roboto', sans-serif;
+  --font-peso: 300;
+}
+body{
+    margin: 0;
+    padding: 0; 
+    min-height: 120vh;
+    background-image: linear-gradient($azul-escuro, $azul-claro);
+    font-family: var(--font-principal);
+    font-weight: var(--font-peso);
+    box-sizing: border-box;
+} 
+  body::-webkit-scrollbar {
+     width: 12px;
+  }
+
+  body::-webkit-scrollbar-track {
+    background: linear-gradient(#041833, #7a8fa8);
+  }
+  body::-webkit-scrollbar-thumb {
+    background-color: #9ab1cc;
+    border-radius: 16px;
+  }
+
+
+  @font-face{
+    font-family: "GrandhiSansBold";
+    src: local("GrandhiSansBold"),
+          url("../assets/fontes/GandhiSans-Bold.otf") format("truetype");
+    font-weight: 400;
+    font-display: swap;
+  }
+
+  @font-face{
+    font-family: "GrandhiSansRegular";
+    src: local("GrandhiSansRegular"),
+          url("../assets/fontes/GandhiSans-Regular.otf") format("truetype");
+    font-weight: 700;
+    font-display: swap;
+  }

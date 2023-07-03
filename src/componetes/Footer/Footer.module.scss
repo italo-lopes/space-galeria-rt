@@ -1,0 +1,35 @@
+@import "../../styles/_variaveis";
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+footer{ 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: $cor-do-texto;
+    background-color: $azul-rodape;
+    font-family: 'Montserrat', sans-serif;
+    line-height: normal;
+    margin-top: 4rem;
+
+    position: fixed;
+    bottom: 0;
+    height: 60px;
+    width: 100%;
+
+    .lista{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-left: 3rem;
+        list-style: none;
+        margin-left: 3rem;
+        &__item{
+            cursor: pointer;
+            margin-left: 4rem;
+        }
+    }
+    .texto{ 
+        margin-right: 2rem;
+        color: $cor-do-texto;
+        font-family: $fonte-normal;
+    }   
+}
