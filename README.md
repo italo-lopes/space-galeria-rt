@@ -4,41 +4,63 @@
 
 # Objtivo 
 Tratar componetes de modo eficas e dinamicos rende
+
 importar imagem estatico 
+
 tratar a arquitetura de fontes 
+
 importar estilos 
+
 Mostar e filtrar fotos importadas  de modo estatico 
+
 Limpar projetos
+
 Adicionar uma funcionalidade para filtrar e exibir essas imagens pelas suas tags
 
 Também aprendeu como usar absolut imports 
+
  filtros de ordenação
 
 # Tecnologias utilizadas -arquitetura
 react-app
+
 Sass 
+
 css-module
+
 @font-face
+
 jsconfig.json
+
 banco de dados local arquivos.json
+
 @import-normalize;
+
 importar fontes propria
 
 # organizar as pastas e arquivos do projeto
  public/assets/.....
+
  public/index.html
+
  public/foicon
+
  src/componetes
+
  src/Paginas/PaginasPripal
+
  src/assents/fontes -coisas fixa usada em todas as paginas
+
  style/variaveis
+
  style/estilosGlobais
+
  git
+
  app.js
+
  index.js
  
-
-
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
