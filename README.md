@@ -2,7 +2,7 @@
 <img src="/fotoDoProjeto.PNG" width="800" /> 
 
 
-# Objtivo 
+# Objetivo
 Tratar componetes de modo eficas e dinamicos rende
 
 importar imagem estatico 
@@ -21,7 +21,7 @@ Também aprendeu como usar absolut imports
 
  filtros de ordenação
 
-# Tecnologias utilizadas -arquitetura
+# Tecnologias utilizadas - arquitetura
 react-app
 
 Sass 
