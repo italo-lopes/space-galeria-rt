@@ -1,5 +1,5 @@
 # Foto do Projeto
-<img src="/fotoDoProjeto.PNG" width="500" /> 
+<img src="/fotoDoProjeto.PNG" width="800" /> 
 
 # Getting Started with Create React App
 
